@@ -365,7 +365,7 @@ class Actuator(BaseEnetDevice):
                     self.channels.append(Channel(self, device_channel))
 
     def __repr__(self):
-        return f"{self.__class__.__name__} (Name: {self.name} Type: {self.device_type}"
+        return f"{self.__class__.__name__} (Name: {self.name} Type: {self.device_type})"
 
 
 class Channel:
